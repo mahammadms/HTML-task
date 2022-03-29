@@ -1,0 +1,104 @@
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="My feedback form">
+<meta name="keywords" content="feedback, form">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <h1>My feedback form</h1>
+
+    <div>
+        <form action="" method="post" >
+
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required min="4" max="20">
+                </li>
+                <li>
+                    <label for="_email">Email:</label>
+                    <input type="email" name="_email" id="email" required>
+                </li>
+                <li>
+                    <label for="pw">Password:</label>
+                    <input type="password" name="" id="pw">
+                </li>
+            </ul>
+
+           <div>
+            <ul>
+                <li> 
+                    <span>Please check all the emotions that apply to you:</span>
+
+                    <ul type="disc">
+                        <li><label for="">Anger</label> <input type="checkbox"> 
+                        <li><label for="">Sad</label> <input type="checkbox"> 
+                        <li><label for="">Happy</label> <input type="checkbox"> 
+                        <li><label for="">Ambivalent</label> <input type="checkbox"> 
+                    </ul>
+               </li>
+
+          </div>
+
+               <ul>
+                   <li>
+                       <span>How satisfied were you with our service?</span>
+
+                       <ul type="disc">
+                           <li><label for="very satisfied">Very satisfied</label> <input type="radio" id="very satisfied" name="satisfied_service" value="Very satisfied"></li>
+                           <li><label for="very satisfied">Satisfied</label> <input type="radio" id="satisfied" name="satisfied_service" value="Satisfied"></li>
+                           <li><label for="very satisfied">Didn't care</label> <input type="radio" id="didn't care" name="satisfied_service" value="Didn't care"></li>
+                           <li><label for="very satisfied">Dissatisfied</label> <input type="radio" id="dissatisfied" name="satisfied_service" value="Dissatisfied"></li>
+                           <li><label for="very satisfied">Very dissatisfied</label> <input type="radio" id="very dissatisfied" name="satisfied_service" value="Very disstisfied"></li>
+                       </ul>
+                   </li>
+               </ul>
+
+               <ul>
+                   <li>
+                       <span>Further comments:</span>
+
+                       <ul>
+                           
+                          <label for="message"></label>
+                          <textarea name="" id="message"></textarea><br>
+                           
+                       </ul>
+                   </li>
+               </ul>
+
+              <ul>
+                  <li>
+                      <span>Bio Photo:</span>
+                      <input type="text">
+                      <input type="file">
+                  </li>
+              </ul>
+
+              <ul>
+                  <li>
+                      <span>Location visied:</span>
+
+                      <input type="text" list="satisfieds" id="search">
+                      <datalist id="satisfieds">
+
+                       <option value="A">A</option>
+                       <option value="B">B</option>
+                       <option value="C">C</option>
+                       <option value="D">D</option>
+
+                      </datalist>
+                  </li>
+              </ul>
+
+
+
+               
+             </form>
+    
+    </div>
+
+</body>
